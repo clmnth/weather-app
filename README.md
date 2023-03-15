@@ -1,13 +1,16 @@
 # React Weather App
 
-A simple weather app using the OpenWeather API.
-
-## Feature
-• Feature #1
+A simple React weather app using the OpenWeather and GeoDB APIs.
 <br />
-• Feature #2
-<br />
-• Feature #3
+Live:
 
-## Screenshots
-**Home Page**
+
+## Features
+• City search autocomplete
+<br />
+• Current weather
+<br />
+• Seven days forecast
+
+Poject by freeCodeCamp:
+https://www.freecodecamp.org/news/use-react-and-apis-to-build-a-weather-app

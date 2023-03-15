@@ -1,4 +1,63 @@
 .container {
-  max-width: 700px;
+  max-width: 35rem;
   margin: 20px auto;
+}
+
+
+footer {
+  margin: 1rem 1.5rem;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: white
+}
+
+.fa-code {
+  font-size: 0.7rem;
+}
+
+.footer-link {
+  color: white;
+}
+
+@media screen and (max-width: 831px) {
+  .img-container {
+    column-count: 2;
+  }
+  .input {
+    width: 20rem;
+  }
+  .title {
+    display: none;
+  }
+  .header {
+    margin: 1rem 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .img-container {
+    column-count: 1;
+  }
+  .input {
+    width: 15rem;
+  }
+  .title {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .img-container {
+    column-count: 1;
+  }
+  .input {
+    width: 12rem;
+  }
+  .title {
+    display: none;
+  }
+  .header {
+    margin: 1rem 0;
+  }
 }
